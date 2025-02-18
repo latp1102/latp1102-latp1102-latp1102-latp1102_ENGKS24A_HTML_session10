@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background: #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #484A5D;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #aaa;
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.content h3 {
+    font-size: 18px;
+    color: #34374D;
+    margin: 0;
+}
+
+.year {
+    background-color: #142850;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.text {
+    font-size: 14px;
+    color: #484A5D;
+}
+
+.content p {
+    font-size: 14px;
+    color: #484A5D;
+    line-height: 1.5;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icons ion {
+    width: 30px;
+    margin: 10px;
+}
