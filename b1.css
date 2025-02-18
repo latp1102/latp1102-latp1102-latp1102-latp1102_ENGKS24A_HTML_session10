@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 56px;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-logo {
+    font-family: "Gloria Hallelujah", serif;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+.next{
+    color: #9C9C9C;
+}
+
+.text{
+    color: #080808;
+}
+
+.link{
+    padding: 8px 12px;
+}
+
+.link:hover{
+    background-color: aqua;
+}
+
+.search {
+    background-color: #8D939E;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px
+}
