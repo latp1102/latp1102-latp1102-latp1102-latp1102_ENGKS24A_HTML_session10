@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    margin-top: 10px;
+    position: relative;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.button-01{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    border: none;
+    color: #0c79ff;
+    background: none;
+    padding-right: 10px;
+}
+
+.card-link{
+    margin-top: 5px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.card-link .link{
+    list-style: none;
+}
+
+.card-link .link a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    width: 100%;
+}
+
+.test-01{
+    margin: 10px;
+    position: relative;
+}
+
+.test-02{
+    margin: 10px;
+    width: 40%;
+    line-height: 25px;
+}
+
+.test-03{
+    line-height: 25px;
+    width: 100%;
+}
+
+.title-01{
+    width: 90%;
+    background-color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+.title-02{
+    background-color: yellow;
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+}
+
+.text-01{
+    padding-top: 30px;
+}
+
+.button-02{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    border: none;
+    color: #0c79ff;
+    background: none;
+}
+
+.text-02{
+    background-color: #f8f8f8;
+    width: 50%;
+    position: relative;
+    height: 350px;
+}
+
+.text-03{
+    padding: 20px;
+}
+
+.text-04{
+    width: 40%;
+    position: relative;
+}
+
+.button-03{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: none;
+    color: white;
+    background: none;
+    background-color: #0c79ff;
+    padding: 5px 10px;
+}
+
+.email{
+    color: #dadada;
+}
+
+.h3{
+    color: #0c79ff;
+}
