@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 20px;
+    background-color: #F9FAFC;
+    width: 30%;
+    height: 500px;
+}
+
+.image{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN817ne1C54Ai-XPEtvQMg7nF4jsMYviX-_w&s");
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.container-button{
+    width: 60px;
+    border: 1px solid white;
+    background-color: #723321;
+    color: white;
+    border-radius: 5px;
+    margin: 20px;
+    margin-left: 80%;
+}
